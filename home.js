@@ -10,4 +10,10 @@ let form = document.querySelector("#contact");
 
 form.addEventListener("submit", handleSubmit);
 
-Object.addEventListener("mouseover");
+function onDuckImgMouseover() {
+  alert("You are smart!");
+}
+
+document
+  .getElementById("duck-img")
+  .addEventListener("mouseover", onDuckImgMouseover);
